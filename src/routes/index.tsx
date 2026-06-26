@@ -3,7 +3,8 @@ import heroDish from "@/assets/hero-dish.jpg";
 import dishDosa from "@/assets/dish-dosa.jpg";
 import dishShake from "@/assets/dish-shake.jpg";
 import dishPaneer from "@/assets/dish-paneer.jpg";
-import ambiance from "@/assets/ambiance.jpg";
+import storefront from "@/assets/hotel-samadhan-storefront.png.asset.json";
+
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -190,12 +191,12 @@ function About() {
       <div className="mx-auto grid max-w-7xl gap-16 px-6 lg:grid-cols-12 lg:px-10">
         <div className="lg:col-span-5">
           <img
-            src={ambiance}
-            alt="Warm interior of Hotel Samadhan"
+            src={storefront.url}
+            alt="Hotel Samadhan storefront on Dighi Road, Bhosari — pure vegetarian outdoor seating"
             width={1600}
-            height={1100}
+            height={1200}
             loading="lazy"
-            className="w-full rounded-sm object-cover aspect-[4/5]"
+            className="w-full rounded-sm object-cover aspect-[3/4]"
           />
         </div>
         <div className="lg:col-span-7 lg:pl-12 flex flex-col justify-center">
