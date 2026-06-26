@@ -3,7 +3,8 @@ import heroDish from "@/assets/hero-dish.jpg";
 import dishDosa from "@/assets/dish-dosa.jpg";
 import dishShake from "@/assets/dish-shake.jpg";
 import dishPaneer from "@/assets/dish-paneer.jpg";
-import ambiance from "@/assets/ambiance.jpg";
+import storefront from "@/assets/hotel-samadhan-storefront.png.asset.json";
+
 
 export const Route = createFileRoute("/")({
   head: () => ({
