@@ -195,12 +195,6 @@ function Hero({ onBookClick }: { onBookClick: () => void }) {
               className="h-full w-full object-cover"
             />
           </div>
-          <div className="absolute -bottom-6 -left-6 hidden lg:block bg-background border border-border/60 rounded-xl px-5 py-4 max-w-[220px] shadow-lg">
-            <p className="font-display text-lg leading-snug">Paneer Tikka Masala</p>
-            <p className="mt-1 text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
-              Tonight's most ordered
-            </p>
-          </div>
         </div>
       </div>
     </section>
